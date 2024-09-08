@@ -19,8 +19,8 @@
 		Current Elasticsearch _Server_ version is 8.11.1
 		N.B. Remember to keep TestConfig.ELASTIC_SEARCH_SERVER_VERSION and getting-started guide updated.
 		-->
-		<docker.registry>docker.io</docker.registry>
-		<docker.allowInsecureRegistries>false</docker.allowInsecureRegistries>
+		<docker.registry>localhost:5001/</docker.registry>
+		<docker.allowInsecureRegistries>true</docker.allowInsecureRegistries>
 		<docker.image.prefix>snomedinternational</docker.image.prefix>
 		<docker.image.tag>latest</docker.image.tag>
 		<docker.base-image>amazoncorretto:17</docker.base-image>
